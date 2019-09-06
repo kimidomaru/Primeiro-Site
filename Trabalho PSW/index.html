@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<title>
+			Trabalho - PSW
+		</title>
+		<link rel="stylesheet" type="text/css" href="Css/style.css">
+	</head>
+
+	<body>
+
+		<header>
+			<div class="capa"> 
+			</div> 
+			<div class="textoCapa">
+				<big><u>Aluno</u>: <b>L</b></big>uikson <big><b>S</big></b>ilva 
+				<div class="botaoHome">
+					<button style="width: 40px;height: 30px;"onclick="window.location.href='index.html';">
+					</button>
+				</div>
+				<div class="botoesCapa" onclick="playPauseMusic()">
+					
+				</div>
+			</div> 
+		</header>
+		<div class="intro">
+			<div class="introGif"><img src="Gif/tenor2.gif">
+				<br><div class="introTexto"> <p>&nbsp;&nbsp;&nbsp; Sekiro Shadow's Die Twice é um Action-RPG, desenvolvido pela FromSoftware e publicado pela Activision. No jogo, você encarna a pele do Lobo, um habilidoso Shinobi
+					que tem como objetivo proteger seu Lorde e possuí como principal peculiariedade a sua imortalidade, não importa quantas vezes ele morra, ele sempre volta a vida, embora isso traga consequências para aqueles em seu entorno.</p>
+				</div> 
+			</div>
+			<center><br><div class="video">
+				<h1><center>Trailer</center></h1><video id="trailer" width="560" height="315" controls>
+					<source src="Video/trailer.mp4" type="video/mp4">
+  					Teu navegador não suporta video, irmão!
+				</video>
+			</div> </center>
+			<div class ="citImg">
+				<br><br><img src="Img/Lancer.jpg" border="3px"><br>&nbsp;&nbsp;<q>Enquanto eu respirar, o portão permanecerá fechado! - Gyoubu Masataka</q>
+			</div>
+			<div class="hookGif">
+				<br>
+				<h3>Mova-se como um shinobi!</h3>
+				<img src="Gif/hook.gif" border="3px">
+			</div>
+			<div class="tabela"> <b>Lista de Chefes</b>
+				<table width="400px" border="2" bordercolor="#C0C0C0">
+					<tr>
+						<th>
+							Chefes
+						</th>
+						<th>
+							Nome
+						</th>
+					</tr>
+					<br>
+					<tr>
+						<td>
+							1
+						</td>
+						<td>
+							Lady Butterfly
+						</td>
+					</tr>
+					<tr>
+						<td>
+							2
+						</td>
+						<td>
+							<a href="gyoubu.html">Gyoubu Masataka
+						</td>
+					</tr>
+					<tr>
+						<td>
+							3
+						</td>
+						<td>
+							Genichiro Ashina
+						</td>
+					</tr>
+					<tr>
+						<td>
+							4
+						</td>
+						<td>
+							<a href="guardianApe.html">Guardian Ape
+						</td>
+					</tr>
+					<tr>
+						<td>
+							5
+						</td>
+						<td>
+							Great Shinobi Owl
+						</td>
+					</tr>
+					<tr>
+						<td>
+							6
+						</td>
+						<td>
+							Corrupted Monk
+						</td>
+					</tr>
+					<tr>
+						<td>
+							7
+						</td>
+						<td>
+							Divine Dragon
+						</td>
+					</tr>
+					<tr>
+						<td>
+							8
+						</td>
+						<td>
+							<a href="demonHatred.html">Demon Of Hatred
+						</td>
+					</tr>
+				</table>
+			</div>	
+		</div>
+		<footer>
+			<div class="textoFooter">
+				<div class="faceIcon">
+					<button style="width: 128px;height: 128px;"onclick="window.open('https://www.facebook.com/luikson.silva.7','_blank')"><img src="Img/faceIcon.png">
+					</button>
+				</div>
+				<div class="gitIcon">
+					<button style="width: 128px;height: 128px;"onclick="window.open('https://github.com/kimidomaru','_blank')"><img src="Img/gitIcon.png">
+					</button>
+				</div>
+				<div class="driveIcon"> 
+					<button style="width: 128px;height: 128px;"onclick="window.open('https://drive.google.com/drive/folders/1cWgE09QkrcvmZS1hbpUAzhLcz2PLFX75','_blank')"><img src="Img/driveIcon.png">
+					</button>
+				</div>
+				<center>Desenvolvido por: Luikson F. da Silva.<br>
+				PSW - 2019.</center>
+			</div>
+		</footer>
+		<script>
+			var music = new Audio();
+			music.src="Audio/theme.mp3";
+			music.volume=1.0;
+			music.load();
+			function playPauseMusic() {
+				if(!music.paused)
+					music.pause();
+				else
+					music.play();
+			}
+		</script>
+	</body>
+</html>

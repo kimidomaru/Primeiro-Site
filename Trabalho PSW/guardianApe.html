@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<title>
+			Pagina 3
+		</title>
+		<link rel="stylesheet" type="text/css" href="Css/bosses.css">
+	</head>
+
+	<body>
+
+		<header>
+			<div class="capa"> 
+				
+			</div> 
+			<div class="textoCapa">
+				<big><u>Aluno</u>: <b>L</b></big>uikson <big><b>S</big></b>ilva 
+				<div class="botaoHome">
+					<button style="width: 40px;height: 30px;"onclick="window.location.href='index.html';">
+					</button>
+				</div>
+				<div class="botoesCapa" onclick="playPauseMusic()"></div>
+				
+			</div> 
+		</header>
+		<div class="intro">
+			<br><br>
+			<div class="img">
+				<img src="Img/guardianApe.jpg" width="800px" height="400px" border="4px"> 
+			</div>
+			<div class="texto"><p>
+						O guardião primata é um ser imortal que guarda o Palácio da Lótus. Possuí uma pelagem branca e uma cicatriz no rosto, além de ser gigante e possuir garras extremamente afiadas. A batalha com ele é bem imprevisível, como ele luta como um animal, seus ataques são bem randômicos, embora alguns sejam fáceis de criptografar. Frequentemente ele irá recuar e tentar um agarrão que é praticamente morte certa para o lobo, portanto, evite esse ataque à qualquer custo. A batalha com ele não é das mais rápidas, ele possuí um HP enorme, além de uma segunda fase bem mais agressiva que a primeira, e com um moveset completamente diferente. Para a primeira fase, os fogos de artíficio são uma boa ferramenta, já que stunnam ele, uma vez que é um animal. Uma boa dica pra segunda fase é levar alguns itens que cortam aterrorizar além de apostar na defesa no momento certo para diminuir sua guarda e matá-lo eventualmente quando ela encher completamente. 
+					</p>
+			</div>
+			<div class="gif">
+				<img src="Gif/guard.gif" width="640" height="360" border="4px">
+				<br>
+				<p>
+					<i>A guarda é essencial em diversas batalhas no game.</i>
+				</p>
+			</div>
+		</div>
+		<footer>
+			<div class="textoFooter">
+				<div class="faceIcon">
+					<button style="width: 128px;height: 128px;"onclick="window.open('https://www.facebook.com/luikson.silva.7','_blank')"><img src="Img/faceIcon.png">
+					</button>
+				</div>
+				<div class="gitIcon">
+					<button style="width: 128px;height: 128px;"onclick="window.open('https://github.com/kimidomaru','_blank')"><img src="Img/gitIcon.png">
+					</button>
+				</div>
+				<div class="driveIcon"> 
+					<button style="width: 128px;height: 128px;"onclick="window.open('https://drive.google.com/drive/folders/1cWgE09QkrcvmZS1hbpUAzhLcz2PLFX75','_blank')"><img src="Img/driveIcon.png">
+					</button>
+				</div>
+				<center>Desenvolvido por: Luikson F. da Silva.<br>
+				PSW - 2019.</center>
+			</div>
+		</footer>
+		<script>
+			var music = new Audio();
+			music.src="Audio/theme.mp3";
+			music.volume=1.0;
+			music.load();
+			function playPauseMusic() {
+				if(!music.paused)
+					music.pause();
+				else
+					music.play();
+			}
+		</script>
+	</body>
+</html>

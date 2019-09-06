@@ -1,0 +1,204 @@
+p{
+	color: #D3D3D3;
+	font-family: Times New Roman;
+}
+q{
+	color: #D3D3D3;
+	font-family: Times New Roman;
+	font-style: italic;
+}
+h1{
+	text-align: justify;
+	color: #D3D3D3;
+	font-family: Impact;
+	text-shadow: 3px 3px #111111;
+}
+h3{
+	text-align: center;
+	color: #D3D3D3;
+	font-family: Times New Roman;
+	text-shadow: 2px 2px #111111;
+}
+*{
+	margin:0;
+	padding: 0;
+}
+header{
+	background-color: #1C1C1C;
+	height: 300px;
+	border-style: solid;
+	border-color: #A9A9A9;
+	border-width: 4px;
+}
+.capa{
+	background-image:url("../Img/sekiroRD.jpg");
+	position: relative;
+	transition: transform.2s;
+	height: 250px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-style: solid;
+	border-width: 4px 5px 4px 5px;
+	overflow: hidden;
+}
+.capa:hover{
+	-ms-transform: scale(1.25); /* IE 9 */
+  	-webkit-transform: scale(1.25); /* Safari 3-8 */
+  	transform: scale(1.25); 
+}
+.textoCapa{
+	color: #C0C0C0;
+	font-family: Helvetica, Arial;
+	text-shadow: 3px 3px #4B0082;
+	font-size: 30px;
+	margin-left: 80px;
+	margin-top: 1px;
+}
+.botaoHome{
+	height:30px;
+	width: 40px;
+	background-image: url("../Img/homeIcon.png");
+	float:right;
+	margin-right: 40px;
+	margin-top: 4px;
+	overflow: hidden;
+}
+.botaoHome:hover{
+	-ms-transform: scale(1.3); /* IE 9 */
+  	-webkit-transform: scale(1.3); /* Safari 3-8 */
+  	transform: scale(1.3); 
+}
+.botoesCapa{
+	height:30px;
+	width: 40px;
+	background-image: url("../Img/musicIcon.png");
+	float:right;
+	margin-right: 20px;
+	margin-top: 4px;
+	overflow: hidden;
+}
+.botoesCapa:hover{
+	-ms-transform: scale(1.3); /* IE 9 */
+  	-webkit-transform: scale(1.3); /* Safari 3-8 */
+  	transform: scale(1.3); 
+}
+.intro{
+	height: 1080px;
+	background-color:#000000;
+	background-image: url("../Img/sekiroCape2.jpg");
+}
+.introGif{
+	height: 180px;
+	width: 320px;
+	margin-left: 0;
+	margin-top: 30px;
+	border-style: solid;
+	border-color: "black";
+	border-width: 6px;
+	float: left;
+	margin-left: 20px;
+}
+
+.introTexto{
+	width: 320px;
+	text-align: justify;
+	background-color:"red";
+	float: left;
+	margin-top: 10px;
+}
+.video{
+	width: 560px;
+	height: 355px;
+	border-style: solid;
+	border-color: #FAFAD2;
+	border-width: 4px;
+}
+.citImg{
+	width: 415px;
+	height: 200px;
+	margin-left: 140px;
+}
+.citImg:hover{
+	-ms-transform: scale(1.25); /* IE 9 */
+  	-webkit-transform: scale(1.25); /* Safari 3-8 */
+  	transform: scale(1.25); 
+}
+.hookGif{
+	float:right;
+	margin-right: 20px;
+}
+.tabela{
+	width: 400px;
+	background-image: url("../Img/boss.jpg");
+	text-align: center;
+	color: #B0C4DE;
+	font-family: Arial;
+	font-size: 20px;
+	text-shadow: 1px 1px #8B0000;
+	border-style: solid;
+	border-color: #111111;
+	border-width: 8px 8px 8px 8px;
+	float:right;
+	margin-right: 200px;
+}
+.tabela:hover{
+	-ms-transform: scale(1.25); /* IE 9 */
+  	-webkit-transform: scale(1.25); /* Safari 3-8 */
+  	transform: scale(1.25); 
+}
+footer{
+	height: 300px;
+	border-style: solid;
+	border-color: #40373C;
+	border-width: 4px 0px 4px 0px;
+	background-image:url("../Img/scroll.jpg");: 
+}
+.faceIcon{
+	position: static;
+	height: 128px;
+	width: 128px;
+	margin-left: 40px;
+	float: left;
+}
+.faceIcon:hover{
+	-ms-transform: scale(1.25); /* IE 9 */
+  	-webkit-transform: scale(1.25); /* Safari 3-8 */
+  	transform: scale(1.25); 
+}
+button{
+	background-color: transparent;
+	border: none;
+}
+.gitIcon{
+	position: static;
+	height: 128px;
+	width: 128px;
+	margin-left: 30px;
+	float:left;
+}
+.gitIcon:hover{
+	-ms-transform: scale(1.25); /* IE 9 */
+  	-webkit-transform: scale(1.25); /* Safari 3-8 */
+  	transform: scale(1.25); 
+}
+.driveIcon{
+	position: static;
+	height: 128px;
+	width: 128px;
+	margin-left: 30px;
+	float:left;
+}
+.driveIcon:hover{
+	-ms-transform: scale(1.25); /* IE 9 */
+  	-webkit-transform: scale(1.25); /* Safari 3-8 */
+  	transform: scale(1.25); 
+}
+.textoFooter{
+	position: absolute;
+	font-family: Times New Roman;
+	font-size: 30px;
+	text-shadow: 1px 2px #111111;
+	color:#DCDCDC;
+	margin-top: 100px;
+	margin-left: 700px;
+}
